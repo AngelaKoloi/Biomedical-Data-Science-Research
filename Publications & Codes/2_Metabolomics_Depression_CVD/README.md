@@ -29,7 +29,7 @@ Tripartite network and mediation analysis identifying metabolomic pathways conne
 ### 1. Set Up Python Environment
 ```bash
 # Create conda environment (recommended)
-conda create -n ukb_metab python=3.9
+conda create -n ukb_metab python=3.11
 conda activate ukb_metab
 
 # Install core packages
