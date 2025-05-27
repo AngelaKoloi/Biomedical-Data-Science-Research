@@ -29,7 +29,10 @@ The analysis generates three types of output files:
 - **Model Data**: Coefficient tables (`.csv`) 
 - **Reports**: Diagnostic summaries (`.html`)
 
-## 👥 Research Context
-This project was developed through a supervised research collaboration with:
-**Tycho Stam** (BSc Candidate, CSL) ([GitHub](https://github.com/kingilsildor))
-*Computational Science Lab, Institute of Informatics, University of Amsterdam*
+## 👥 Research Context  
+**Collaborators:**  
+- **Tycho Stam**  
+  ‣ BSc Candidate in Computational Science  
+  ‣ GitHub: [kingilsildor](https://github.com/kingilsildor)  
+
+*This work was conducted at the Computational Science Lab (CSL) as part of supervised bachelor's research.*
