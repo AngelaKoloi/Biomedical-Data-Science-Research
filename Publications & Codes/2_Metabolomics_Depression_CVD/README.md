@@ -34,7 +34,5 @@ conda activate ukb_metab
 
 # Install core packages
 pip install jupyter pandas numpy scipy statsmodels seaborn matplotlib networkx
-
-# For mediation analysis only (additional requirements)
 pip install pingouin pymer4
 
