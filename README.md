@@ -22,7 +22,7 @@ This repository contains my academic and research work in **computational medici
   - `2_Metabolomics_Depression_CVD/` - Network analysis (UK Biobank)
   - `3_Metabolic_Pathways/` - Network analysis (YFS & UK Biobank)
   - `4_Causal_Discovery/` - DAG models & Mediation analysis (NESDA)
-- ** Additional Projects**
+- **Additional Projects**
   - `Cross_Lagged_Models/` - Depression-CVD risk  
   - `LURIC_ML/` - Early CVD prediction  
 ---
