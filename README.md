@@ -1,5 +1,5 @@
 # Portfolio  
-**Angela Koloi** | *Medical Data Scientist & Computational Researcher*  
+**Angela Koloi** | *Medical Data Scientist & PhD Candidate*  
 🔗 [LinkedIn](https://www.linkedin.com/in/angela-koloi-b777381b9/)  
 
 ---
