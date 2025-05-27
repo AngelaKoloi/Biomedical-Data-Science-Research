@@ -1,4 +1,4 @@
-# MDD-CVD Metabolic Pathways Analysis
+# Individual Symptoms Depression-CVD Metabolic Pathways Analysis
 
 [![DOI](https://img.shields.io/badge/DOI-10.1016%2Fj.bpsgos.2025.100528-blue)](https://doi.org/10.1093/ehjopen/oeaf038)
 
