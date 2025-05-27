@@ -30,8 +30,8 @@ This repository contains my academic and research work in **computational medici
 ## 🚀 Quick Access  
 | Project               | Links |
 |-----------------------|-------|
-| **MSc Thesis**        | [🎥 Simulation](Education/MSc_Medical_Engineering/Stent_Deployment.mp4) |
-| **PhD Dissertation**  | [📜 LaTeX Source](Education/PhD_Computational_Medicine/https://www.overleaf.com/project/681dce4655cb98df57210e1f) |
+| **MSc Thesis**        | [🎥 Simulation]([Education/MSc_Medical_Engineering/Stent_Deployment.mp4](https://drive.google.com/file/d/1AGg2njnA9Y3aTKpXHYSJBVBFx7lyc45J/view?usp=sharing)) |
+| **PhD Dissertation**  | [📜 LaTeX Source](https://www.overleaf.com/project/681dce4655cb98df57210e1f) |
 | **Key Papers**        | [🔗 DOI 1](https://doi.org/10.1093/ehjopen/oeaf038) · [🔗 DOI 2](https://doi.org/10.1016/j.bpsgos.2025.100528) · [🔗 DOI 3](https://doi.org/10.1093/ehjdh/ztae049) |
 
 ---
