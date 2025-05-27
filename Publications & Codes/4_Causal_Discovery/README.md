@@ -1,6 +1,6 @@
 # MDD-CVD Causal Network Analysis
 
-[![DOI](https://www.sciencedirect.com/science/article/pii/S2667174325000825)
+[![DOI](https://www.sciencedirect.com/science/article/pii/S2667174325000825)]
 
 ## 🔍 Analysis Pipeline
 
