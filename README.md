@@ -1,4 +1,4 @@
-# Computational Medicine Portfolio  
+# Portfolio  
 **Angela Koloi** | *Medical Data Scientist & Computational Researcher*  
 🔗 [LinkedIn](https://www.linkedin.com/in/angela-koloi-b777381b9/)  
 
