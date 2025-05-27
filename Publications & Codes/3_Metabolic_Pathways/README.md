@@ -11,8 +11,8 @@
 | File | Analysis Type | Key Functionality |
 |------|--------------|------------------|
 | `1_preprocess.ipynb` | Data Preparation | • Missing data imputation<br>• Covariate adjustment |
-| `2_network_model.R` | Mixed Graphical Model | • Multi-layer network inference<br>• Edge stability testing |
-| `3_postprocess.ipynb` | Network Validation | • Bootstrap stability checks<br>• Jointness score calculation |
+| `2_network_model.R` | Mixed Graphical Model | • Multi-layer network inference<br>• Edge stability testing<br>•Bootstrap stability checks |
+| `3_postprocess.ipynb` | Network Validation | • Jointness score calculation |
 
 ### 2. External Validation (UK Biobank)
 
