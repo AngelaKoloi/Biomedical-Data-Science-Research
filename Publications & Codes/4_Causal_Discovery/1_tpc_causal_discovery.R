@@ -1,4 +1,3 @@
-
 # Load necessary libraries
 library(stats)
 library(pcalg)
@@ -7,14 +6,11 @@ library(micd)
 library(parallel)
 
 data <- read.csv("currentMDD.csv")
-
 column_names <- colnames(data)
 
 # Wrap column names in quotes and print as a comma-separated string
 quoted_column_names <- paste0('"', column_names, '"')
 cat(paste(quoted_column_names, collapse = ", "))
-
-
 
 tier1 <- c( "MDD",  "AGP",  "ApoA1", "ApoB", "Diacylglycerol","aAce", "aIL6",
               "FAs.chain.length", "HDL.Chol", "HDL.Diameter", "HDL.Trig", "HDL.2.Chol",
@@ -24,16 +20,12 @@ tier1 <- c( "MDD",  "AGP",  "ApoA1", "ApoB", "Diacylglycerol","aAce", "aIL6",
 
 tier2 <- c(   "CVD" )   
 
-
-
 tiered_variables <- c(tier1, tier2)
 data <- data[, tiered_variables]
 
 # Create the tiers vector based on the reordered data
 tiers <- c(rep(1, length(tier1)), rep(2, length(tier2)))
 print(tiers)
-
-
 
 # Prepare forbidden edges
 forbEdges <- matrix(FALSE, ncol = length(colnames(data)), nrow = length(colnames(data)),
@@ -49,15 +41,8 @@ if ("CVD" %in% colnames(data) && "MDD" %in% colnames(data)) {
   forbEdges["CVD", "MDD"] <- TRUE
 }
 
-
 # Ensure MDD can be influenced by all variables by keeping MDD column FALSE (no forbidden edges to MDD)
 forbEdges[, "MDD"] <- TRUE
-
-# Check the forbidden edges matrix
-print(forbEdges)
-
-
-
 
 # Loop through all variables in tier1 and forbid edges from "MDD" to these variables
 for (var in tier1) {
@@ -95,4 +80,4 @@ graph <- tpc(
   verbose = FALSE
 )
 
-save(graph, file = "tpc_graph0075.RData")
+save(graph, file = "tpc_graph005.RData")

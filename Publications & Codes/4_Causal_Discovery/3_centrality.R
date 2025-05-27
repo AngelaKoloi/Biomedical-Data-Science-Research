@@ -7,9 +7,6 @@ library(reshape2)
 load("tpc_graph005.RData")
 adj_matrix <- as(graph@graph, "matrix")
 g <- graph_from_adjacency_matrix(adj_matrix, mode = "directed")
-
-
-
 # Define the mapping for renaming
 rename_mapping <- list(
   "hs.CRP" = "hs-CRP",
@@ -53,16 +50,12 @@ library(ggplot2)
 library(reshape2)
 library(scales)
 
-
 # Define the variables of interest
 variables_of_interest <- c("Isoleucine", "Glycoprotein", "Fatty Acids Chain Length", "Acetate", 
                            "Tyrosine", "HDL Diameter", "TNF-a", "LDL Triglycerides", "IL-6", 'hs-CRP')
 
-
 # Calculate Betweenness Centrality for the entire graph
 betweenness_centrality <- betweenness(g, directed = TRUE)
-
-
 
 # Combine Betweenness Centrality into a data frame
 centrality_df <- data.frame(
