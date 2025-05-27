@@ -1,40 +1,35 @@
-# Cross-Lagged Model
+# Cross-Lagged Model Analysis Project
 
-## Description
+## 📋 Project Overview
+This repository contains code for analyzing longitudinal relationships between depression symptoms and cardiovascular risk factors using cross-lagged modeling. The project was developed as part of bachelor's research at the University of Amsterdam.
 
-## Table of Contents
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-- [File Descriptions](#file-descriptions)
+## 🚀 Quick Start
+1. Clone this repository
+2. Install dependencies: `pip install -r config.txt`
+3. Run preprocessing: `python src/preprocess.py`
+4. Run analysis: `Rscript src/networkanalysis.R`
 
-## Getting Started
+## 🔧 Key Files
+| File | Purpose |
+|------|---------|
+| `preprocess.ipynb` | Cleans data & handles missing values |
+| `networkanalysis.R` | Main analysis (GLMNET implementation) |
+| `calculate_descriptive.ipynb` | Supplemental statistics |
 
-1. Clone the repository.
-2. Install the required dependencies for running the preprocessing. These dependencies can be found in `config.txt`.
-3. Navigate to `preprocess.py` for running the preprocessing.
-4. Nagivate to `networkanalysis.R` for running the Cross-lagged Model. The R dependencies will be automaticaly installed when running the network object.
-4. Read the documentation.
-5. Change the config if nessecary.
+## ⏳ Runtime Notes
+- Analysis time depends on hardware and bootstrap iterations
+- For faster plotting: 
+  ```r
+  coef <- build_coef()  # Run once
+  set_coef(coef)        # Reuse for different plots
+  
+## 📊 Output Files
+The analysis generates three types of output files:
+- **Visualizations**: Network plots (`.png`, `.svg`)
+- **Model Data**: Coefficient tables (`.csv`) 
+- **Reports**: Diagnostic summaries (`.html`)
 
-After running the `networkanalysis.R`, multiple plots will be visable in the given image directory.
-The analysis can take some time depening om the hardware and the amount of selected boots.
-When changing the plot parameters it's best to build and set the coefficient manualy, so that the calculation only has to be done 1 time.
-
-## Usage
-
-`networkanalysis.R` is the main file to use to calculate the cross-lagged model. This will be done using the glmnet package as a way to calculate the edge strength for the different timesteps.
-the function `plot_functions()` will calculate the coefficient for you and uses that to make all the plots.
-
-For manual use:
-1. Call the `build_coef()` function.
-2. Call the plot functions you wan to use.
-If you want to change the plot parameters I would advise to first call the `build_coef()` once and save the output to a variable. With the `set_coef()` function you can save this coefficient everytime you want to make changes to the code. This way it will save a lot of time.
-
-## File Descriptions
-- `src/preprocess.ipynb`: Preprocesses the data, such as removing NaN values and enabeling the covariances.
-- `src/calculate_descriptive.ipynb`:  Different way to calculate the descriptives from the dataset. This is done because the function to calculate the descriptive in R uses the data imputed by the covriance.
-- `src/networkanalysis.R`: Main file for calculating the Cross-Lagged Model, using the glmnet package.
-
-## Author
-Code is writen by Tycho Stam
-https://github.com/kingilsildor
+## 👥 Research Context
+This project was developed through a supervised research collaboration with:
+**Tycho Stam** (BSc Candidate, CSL) ([GitHub](https://github.com/kingilsildor))
+*Computational Science Lab, Institute of Informatics, University of Amsterdam*
