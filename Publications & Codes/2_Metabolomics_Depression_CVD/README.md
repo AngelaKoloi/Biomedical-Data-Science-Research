@@ -3,7 +3,7 @@
 [![Paper Status](https://img.shields.io/badge/Status-Submitted-yellow)](https://doi.org/your-doi-here)
 
 ## 🔬 Study Overview
-Tripartite network and mediation analysis identifying metabolomic pathways connecting specific depressive symptoms (PHQ-9) to incident cardiovascular disease in UK Biobank participants (N=35,711).
+Tripartite network and mediation analysis identifying metabolomic pathways connecting specific depressive symptoms (PHQ-9) to incident cardiovascular disease in UK Biobank participants (N=35 711).
 
 **Key Findings:**
 - 4 significant symptom-metabolite-CVD pathways surviving full covariate adjustment
