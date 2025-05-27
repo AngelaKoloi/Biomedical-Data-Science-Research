@@ -24,3 +24,20 @@ This repository contains my academic and research work in **computational medici
 └── Projects/
 ├── Cross_Lagged_Models/ # Depression-CVD risk
 └── LURIC_ML/ # Early CVD prediction
+
+---
+
+## 🚀 Quick Access  
+| Project               | Links |
+|-----------------------|-------|
+| **MSc Thesis**        | [📄 PDF](Education/MSc_Medical_Engineering/Thesis.pdf) · [🎥 Simulation](Education/MSc_Medical_Engineering/Stent_Deployment.mp4) |
+| **PhD Dissertation**  | [📜 LaTeX Source](Education/PhD_Computational_Medicine/) |
+| **Key Papers**        | [🔗 DOI 1](https://doi.org/10.1093/ehjopen/oeaf038) · [🔗 DOI 2](https://doi.org/10.1016/j.bpsgos.2025.100528) · [🔗 DOI 3](https://doi.org/10.1093/ehjdh/ztae049) |
+
+---
+
+## 🛠️ Setup & Usage  
+### For Code Reproducibility  
+1. Clone the repo:  
+   ```bash
+   git clone https://github.com/yourusername/Computational-Medicine-Portfolio.git
