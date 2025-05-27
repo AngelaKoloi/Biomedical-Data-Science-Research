@@ -14,15 +14,15 @@ This repository contains my academic and research work in **computational medici
 ---
 
 ## 📂 Repository Structure  
-- **Education/**
+- **Education**
   - `MSc_Medical_Engineering/` - ANSYS FEA simulations  
-  - `PhD_Computational_Medicine/` - LaTeX thesis + code  
-- **Publications/**
+  - `PhD_Computational_Medicine/` - LaTeX thesis   
+- **Publications/Codes**
   - `1_ML_Mental_CVD_Prediction/` - GANs + ML pipelines  (Lifelines & UK Biobank)
   - `2_Metabolomics_Depression_CVD/` - Network analysis (UK Biobank)
   - `3_Metabolic_Pathways/` - Network analysis (YFS & UK Biobank)
   - `4_Causal_Discovery/` - DAG models & Mediation analysis (NESDA)
-- **Projects/**
+- ** Additional Projects**
   - `Cross_Lagged_Models/` - Depression-CVD risk  
   - `LURIC_ML/` - Early CVD prediction  
 ---
