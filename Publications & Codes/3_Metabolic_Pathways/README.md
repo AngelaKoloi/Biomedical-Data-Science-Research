@@ -34,5 +34,4 @@ install.packages(c("mgm", "qgraph", "TwoSampleMR", "ggplot2"))
 
 # Run pipeline
 Rscript 2_network_model.R              # Main network analysis
-Rscript UKB_validation.R --covariates "age,sex"  # Validation
-Rscript MR_analysis.R --exposure glucose --outcome CAD  # MR
+Rscript MR_analysis.R --exposure metabolite --outcome CAD  # MR
