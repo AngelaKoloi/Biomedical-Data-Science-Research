@@ -17,7 +17,7 @@ This repository contains my academic and research work in **computational medici
 - **Education**
   - `MSc_Medical_Engineering/` - ANSYS FEA simulations  
   - `PhD_Computational_Medicine/` - LaTeX thesis   
-- **Publications/Codes**
+- **Publications & Codes**
   - `1_ML_Mental_CVD_Prediction/` - GANs + ML pipelines  (Lifelines & UK Biobank)
   - `2_Metabolomics_Depression_CVD/` - Network analysis (UK Biobank)
   - `3_Metabolic_Pathways/` - Network analysis (YFS & UK Biobank)
