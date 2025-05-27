@@ -23,3 +23,18 @@ Tripartite network and mediation analysis identifying metabolomic pathways conne
 |------|--------------|------------------|
 | [`network-analysis-tripartite.ipynb`](network-analysis-tripartite.ipynb) | Tripartite Network | • Partial correlation networks<br>• Symptom-metabolite-CVD edge detection<br>• Bootstrap stability validation |
 | [`mediation.ipynb`](mediation.ipynb) | Longitudinal Mediation | • 6-year incident CVD analysis<br>• 3-tier covariate adjustment:<br>  &nbsp;&nbsp;1. Age/sex<br>  &nbsp;&nbsp;2. SES/lifestyle/meds<br>  &nbsp;&nbsp;3. BMI<br>• FDR-corrected p-values |
+
+## 🚀 Quick Start
+
+### 1. Set Up Python Environment
+```bash
+# Create conda environment (recommended)
+conda create -n ukb_metab python=3.9
+conda activate ukb_metab
+
+# Install core packages
+pip install jupyter pandas numpy scipy statsmodels seaborn matplotlib networkx
+
+# For mediation analysis only (additional requirements)
+pip install pingouin pymer4
+
