@@ -14,17 +14,17 @@ This repository contains my academic and research work in **computational medici
 ---
 
 ## 📂 Repository Structure  
-├── Education/
-│ ├── MSc_Medical_Engineering/ # ANSYS FEA simulations
-│ └── PhD_Computational_Medicine/ # LaTeX thesis + code
-├── Publications/
-│ ├── ML_CVD_Prediction/ # GANs + ML pipelines
-│ ├── Metabolomics_Depression_CVD/ # Network analysis (UKB)
-│ └── Causal_Discovery/ # DAG models (Biol Psychiatry)
-└── Projects/
-├── Cross_Lagged_Models/ # Depression-CVD risk
-└── LURIC_ML/ # Early CVD prediction
-
+- **Education/**
+  - `MSc_Medical_Engineering/` - ANSYS FEA simulations  
+  - `PhD_Computational_Medicine/` - LaTeX thesis + code  
+- **Publications/**
+  - `1_ML_Mental_CVD_Prediction/` - GANs + ML pipelines  (Lifelines & UK Biobank)
+  - `2_Metabolomics_Depression_CVD/` - Network analysis (UK Biobank)
+  - `3_Metabolic_Pathways/` - Network analysis (YFS & UK Biobank)
+  - `4_Causal_Discovery/` - DAG models & Mediation analysis (NESDA)
+- **Projects/**
+  - `Cross_Lagged_Models/` - Depression-CVD risk  
+  - `LURIC_ML/` - Early CVD prediction  
 ---
 
 ## 🚀 Quick Access  
@@ -32,7 +32,7 @@ This repository contains my academic and research work in **computational medici
 |-----------------------|-------|
 | **MSc Thesis**        | [🎥 Simulation](https://drive.google.com/file/d/1AGg2njnA9Y3aTKpXHYSJBVBFx7lyc45J/view?usp=sharing) |
 | **PhD Dissertation**  | [📜 LaTeX Source](https://www.overleaf.com/project/681dce4655cb98df57210e1f) |
-| **Key Papers**        | [🔗 DOI 1](https://doi.org/10.1093/ehjopen/oeaf038) · [🔗 DOI 2](https://doi.org/10.1016/j.bpsgos.2025.100528) · [🔗 DOI 3](https://doi.org/10.1093/ehjdh/ztae049) |
+| **Key Papers**        | [🔗 DOI 1](https://doi.org/10.1093/ehjopen/oeaf038) · [🔗 DOI 2](https://doi.org/10.1016/j.bpsgos.2025.100528) · [🔗 DOI 3](https://doi.org/10.1093/ehjdh/ztae049) · [🔗 DOI 4](https://doi.org/10.1109/EMBC40787.2023.10340194) |
 
 ---
 
