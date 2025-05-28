@@ -10,7 +10,7 @@
 
 ### 1. Synthetic Patient Generation  
 📓 `synthetic_data_generation.py`  
-*Implementation of advanced techniques to create realistic synthetic patient cohorts.*
+*Implementation of AI methods to create realistic synthetic patient cohorts.*
 
 ---
 
