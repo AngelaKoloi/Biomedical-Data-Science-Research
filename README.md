@@ -39,7 +39,7 @@ graph TD
     J --> K
     M --> K
 
-    AP --> L[Depression symptoms on CVD]
+    AP --> L[Longitudinal Anlysis Depression symptoms on CVD]
     L --> O[Cross-Lagged Panel Model]
     O --> K
 ```
