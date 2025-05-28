@@ -5,7 +5,7 @@
 **Psychological Factors for Improved Atherosclerotic Cardiovascular Disease (CVD) Prediction**  
 *A Machine Learning-based Study Using Lifelines and UK Biobank Data*
 
-## 📌 Key Findings (Preliminary)
+## 📌 Key Findings 
 - **Prediction Improvement**: Mental health data increased AUC from 0.88→0.94 (Lifelines) and 0.76→0.83 (UK Biobank)
 - **Key Psychological Predictors**: Childhood trauma and somatic depressive symptoms (fatigue, sleep disturbances)
 - **Model Efficiency**: Symptom-level vs sum score models showed comparable performance
