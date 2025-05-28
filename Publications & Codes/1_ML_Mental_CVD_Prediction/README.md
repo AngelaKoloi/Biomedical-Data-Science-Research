@@ -51,5 +51,5 @@
 | - Compute Nodes            | 64-core AMD EPYC, 512GB RAM               | Data preprocessing & ML training|
 | - GPU Nodes                | 4× NVIDIA V100 (32GB VRAM)                | GAN training                   |
 | - Storage                  | 2PB Lustre parallel filesystem            | Cohort data handling           |
-| **UK Biobank**             | IBM Spectrum LSF                          | Validation & replication       |
+| **UK Biobank**             | IBM Spectrum LSF                          | Validation/ Generalizability)      |
 
