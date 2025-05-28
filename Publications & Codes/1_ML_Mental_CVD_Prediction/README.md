@@ -71,5 +71,3 @@ graph TD
 ```bash
 # Python
 pip install pandas numpy xgboost matplotlib shap tensorflow
-
-
