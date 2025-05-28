@@ -29,8 +29,9 @@ graph TD
     H --> K
     G --> K
     I --> K
-    B --> L[Cross Lagged Models]
-    L --> K
+    B --> L[Depression symptoms on CVD]
+    Z --> O[Cross Lagged Model]
+    O --> K
     B --> M[Machine Learning + Explainability AI]
     M --> K
 ```
