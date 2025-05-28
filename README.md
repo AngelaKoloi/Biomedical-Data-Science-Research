@@ -20,11 +20,11 @@ This repository contains my academic and research work in **computational medici
 - **Publications & Codes**
   - `1_ML_Mental_CVD_Prediction/` - GANs + ML pipelines  (Lifelines & UK Biobank)
   - `2_Metabolomics_Depression_CVD/` - Network analysis (UK Biobank)
-  - `3_Metabolic_Pathways/` - Network analysis (YFS & UK Biobank)
+  - `3_Metabolic_Pathways/` - Network analysis + Causal Inference (YFS & UK Biobank)
   - `4_Causal_Discovery/` - DAG models & Mediation analysis (NESDA)
 - **Additional Projects**
-  - `Cross_Lagged_Models/` - Depression-CVD risk  
-  - `LURIC_ML/` - Early CVD prediction  
+  - `Cross_Lagged_Models/` - Cross Lagged model Depression-CVD risk  
+  - `LURIC_ML/` - ML Early CVD prediction  
 ---
 
 ## 🚀 Quick Access  
