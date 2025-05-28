@@ -1,0 +1,324 @@
+---
+baseline: 7
+coefficients:
+  year_season:
+    distribution: gamma
+    parameters:
+      a: 8
+      scale: 0.3
+  trimester_season:
+    distribution: gamma
+    parameters:
+      a: 3
+      scale: 0.2
+  arma_scale:
+    distribution: gamma
+    parameters:
+      a: 3
+      scale: 0.2
+  trend_beta:
+    distribution: norm
+    parameters:
+      loc: 0
+      scale: 0.009
+...
+---
+media1:
+  name: tv
+  distribution:
+    distribution: beta
+    parameters: 
+      a: 0.09
+      b: 0.2
+  coefficients:
+    beta:
+      distribution: weibull_min
+      parameters:
+        c: 20
+        loc: 0
+    l:
+      distribution: randint
+      parameters:
+        low: 12
+        high: 13
+    alpha:
+      distribution: beta
+      parameters:
+        a: 4
+        b: 4
+    d:
+      distribution: geom
+      parameters:
+        p: 0.3
+    half_saturation:
+      distribution: beta
+      parameters:
+        a: 25
+        b: 20
+    slope:
+      distribution: weibull_min
+      parameters:
+        c: 5
+        loc: 1
+media2:
+  name: amazon_display
+  distribution:
+    distribution: beta
+    parameters: 
+      a: 0.07
+      b: 0.2
+  coefficients:
+    beta:
+      distribution: weibull_min
+      parameters:
+        c: 20
+        loc: 0
+    l:
+      distribution: randint
+      parameters:
+        low: 12
+        high: 13
+    alpha:
+      distribution: beta
+      parameters:
+        a: 4
+        b: 4
+    d:
+      distribution: geom
+      parameters:
+        p: 0.3
+    half_saturation:
+      distribution: beta
+      parameters:
+        a: 20
+        b: 20
+    slope:
+      distribution: weibull_min
+      parameters:
+        c: 5
+        loc: 3
+media3:
+  name: influencers
+  distribution:
+    distribution: beta
+    parameters: 
+      a: 0.03
+      b: 0.2
+  coefficients:
+    beta:
+      distribution: weibull_min
+      parameters:
+        c: 20
+        loc: 0
+    l:
+      distribution: randint
+      parameters:
+        low: 12
+        high: 13
+    alpha:
+      distribution: beta
+      parameters:
+        a: 4
+        b: 4
+    d:
+      distribution: randint
+      parameters:
+        low: 0
+        high: 3
+    half_saturation:
+      distribution: beta
+      parameters:
+        a: 25
+        b: 17
+    slope:
+      distribution: weibull_min
+      parameters:
+        c: 5
+        loc: 3
+media4:
+  name: facebook
+  distribution:
+    distribution: beta
+    parameters: 
+      a: 4
+      b: 10
+  coefficients:
+    beta:
+      distribution: weibull_min
+      parameters:
+        c: 20
+        loc: 0
+    l:
+      distribution: randint
+      parameters:
+        low: 12
+        high: 13
+    alpha:
+      distribution: beta
+      parameters:
+        a: 4
+        b: 4
+    d:
+      distribution: randint
+      parameters:
+        low: 0
+        high: 1
+    half_saturation:
+      distribution: beta
+      parameters:
+        a: 15
+        b: 30
+    slope:
+      distribution: beta
+      parameters:
+        a: 27
+        b: 19
+media5:
+  name: youtube
+  distribution:
+    distribution: beta
+    parameters: 
+      a: 20
+      b: 3
+  coefficients:
+    beta:
+      distribution: weibull_min
+      parameters:
+        c: 20
+        loc: 0
+    l:
+      distribution: randint
+      parameters:
+        low: 12
+        high: 13
+    alpha:
+      distribution: beta
+      parameters:
+        a: 4
+        b: 4
+    d:
+      distribution: randint
+      parameters:
+        low: 0
+        high: 1
+    half_saturation:
+      distribution: beta
+      parameters:
+        a: 20
+        b: 20
+    slope:
+      distribution: weibull_min
+      parameters:
+        c: 5
+        loc: 0.5
+media6:
+  name: google_search
+  distribution:
+    distribution: beta
+    parameters: 
+      a: 3
+      b: 20
+  coefficients:
+    beta:
+      distribution: weibull_min
+      parameters:
+        c: 20
+        loc: 0
+    l:
+      distribution: randint
+      parameters:
+        low: 12
+        high: 13
+    alpha:
+      distribution: beta
+      parameters:
+        a: 4
+        b: 4
+    d:
+      distribution: randint
+      parameters:
+        low: 0
+        high: 1
+    half_saturation:
+      distribution: beta
+      parameters:
+        a: 7
+        b: 20
+    slope:
+      distribution: beta
+      parameters:
+        a: 27
+        b: 19
+media7:
+  name: tiktok
+  distribution:
+    distribution: beta
+    parameters: 
+      a: 20
+      b: 3
+  coefficients:
+    beta:
+      distribution: weibull_min
+      parameters:
+        c: 20
+        loc: 0
+    l:
+      distribution: randint
+      parameters:
+        low: 12
+        high: 13
+    alpha:
+      distribution: beta
+      parameters:
+        a: 4
+        b: 4
+    d:
+      distribution: randint
+      parameters:
+        low: 0
+        high: 1
+    half_saturation:
+      distribution: beta
+      parameters:
+        a: 20
+        b: 20
+    slope:
+      distribution: weibull_min
+      parameters:
+        c: 5
+        loc: 0.5
+...
+---
+control1:
+  name: promo
+  distribution: 
+    distribution: beta
+    parameters: 
+      a: 0.03
+      b: 0.2
+  coefficients:
+    beta:
+      distribution: weibull_min
+      parameters:
+        c: 20
+        loc: 0
+control2:
+  name: price
+  distribution: 
+    distribution: lognorm
+    parameters: 
+      s: 0.4
+      loc: 0
+      scale: 1
+  coefficients:
+    beta:
+      distribution: norm
+      parameters:
+        loc: -2
+        scale: 0.75
+...
+---
+distribution: norm
+parameters:
+  loc: 0
+  scale: 0.5
