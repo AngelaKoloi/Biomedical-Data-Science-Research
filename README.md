@@ -39,9 +39,14 @@ graph TD
     J --> K
     M --> K
 
-    AP --> L[Longitudinal Anlysis Depression symptoms on CVD]
+    AP --> L[Depression symptoms on CVD]
+    AP --> S[Synthetic Data Generation]
+
     L --> O[Cross-Lagged Panel Model]
+    S --> T[Copulas + GANs + VAEs]
+
     O --> K
+    T --> K
 ```
 
 ## 📂 Repository Structure  
