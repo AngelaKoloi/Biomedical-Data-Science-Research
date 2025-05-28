@@ -23,8 +23,8 @@ This repository contains my academic and research work in **computational medici
   - `3_Metabolic_Pathways/` - Network analysis + Causal Inference (YFS & UK Biobank)
   - `4_Causal_Discovery/` - DAG models & Mediation analysis (NESDA)
 - **Additional Projects**
-  - `Cross_Lagged_Models/` - Cross Lagged model Depression-CVD risk  
-  - `LURIC_ML/` - ML Early CVD prediction  
+  - `Cross_Lagged_Models/` - Cross Lagged model Depression-CVD risk (YFS)
+  - `LURIC_ML/` - ML Early CVD prediction (LURIC)
 ---
 
 ## 🚀 Quick Access  
