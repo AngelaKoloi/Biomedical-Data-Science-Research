@@ -41,7 +41,7 @@ graph TD
     M --> K
 
     %% Additional Projects
-    AP --> L[Depression symptoms on CVD]
+    AP --> L[Influence of Depression symptoms on CVD]
     L --> O[Cross-Lagged Panel Model]
 
     AP --> S[Synthetic Data Generation]
