@@ -17,7 +17,6 @@ graph TD
     E --> F[Model Validation]
     F --> G[SHAP Interpretation]
     G --> H[Clinical Interpretation]
-    H --> I[End of Pipeline]
 ```
 
 ## 📌 Key Findings 
