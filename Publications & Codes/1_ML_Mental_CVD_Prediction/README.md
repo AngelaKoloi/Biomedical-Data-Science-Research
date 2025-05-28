@@ -53,11 +53,15 @@
 | - Storage                  | 2PB Lustre parallel filesystem            | Cohort data handling           |
 | **UK Biobank**             | IBM Spectrum LSF                          | Validation/ Generalizability   |
 
+## 🔄 Computational Workflow
+
+```mermaid
 graph TD
-    A[Raw Data] --> B[Preprocessing]
+    A[Raw Cohort Data] --> B[Preprocessing]
     B --> C{GAN Augmentation?}
-    C -->|Yes| D[Generate Synthetic Samples]
-    C -->|No| E[ML Model Training]
+    C -->|Yes| D[GPU: Generate Synthetic Samples]
+    C -->|No| E[CPU: ML Model Training]
     D --> E
     E --> F[Model Validation]
     F --> G[SHAP Interpretation]
+    G --> H[Clinical Interpretation]
