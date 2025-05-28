@@ -21,6 +21,7 @@ graph TD
     B --> JP[📄 Journal Papers]
     B --> AP[🧪 Additional Projects]
 
+    %% Journal Papers
     JP --> C[Psychological factors for improved CVD]
     JP --> D[Metabolomic signatures linking depressive symptoms-CVD]
     JP --> E[Morbidity-bridging metabolic pathways]
@@ -39,14 +40,20 @@ graph TD
     J --> K
     M --> K
 
+    %% Additional Projects
     AP --> L[Depression symptoms on CVD]
-    AP --> S[Synthetic Data Generation]
-
     L --> O[Cross-Lagged Panel Model]
+
+    AP --> S[Synthetic Data Generation]
     S --> T[Copulas + GANs + VAEs]
+
+    AP --> U[Media Mix Modeling (MMM)]
+    U --> W[Bayesian Inference + Causal ML on Campaign Data]
 
     O --> K
     T --> K
+    W --> K
+
 ```
 
 ## 📂 Repository Structure  
