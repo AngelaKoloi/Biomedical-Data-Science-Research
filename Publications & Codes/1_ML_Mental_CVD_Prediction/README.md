@@ -4,6 +4,19 @@
 
 **Psychological Factors for Improved Atherosclerotic Cardiovascular Disease (CVD) Prediction**  
 *A Machine Learning-based Study Using Lifelines and UK Biobank Data*
+## 🔄 Computational Workflow
+
+```mermaid
+graph TD
+    A[Raw Cohort Data] --> B[Preprocessing]
+    B --> C{GAN Augmentation?}
+    C -->|Yes| D[GPU: Generate Synthetic Samples]
+    C -->|No| E[CPU: ML Model Training]
+    D --> E
+    E --> F[Model Validation]
+    F --> G[SHAP Interpretation]
+    G --> H[Clinical Interpretation]
+    H --> I[✔️ End of Pipeline]
 
 ## 📌 Key Findings 
 - **Prediction Improvement**: Mental health data increased AUC from 0.88→0.94 (Lifelines) and 0.76→0.83 (UK Biobank)
@@ -53,15 +66,3 @@
 | - Storage                  | 2PB Lustre parallel filesystem            | Cohort data handling           |
 | **UK Biobank**             | IBM Spectrum LSF                          | Validation/ Generalizability   |
 
-## 🔄 Computational Workflow
-
-```mermaid
-graph TD
-    A[Raw Cohort Data] --> B[Preprocessing]
-    B --> C{GAN Augmentation?}
-    C -->|Yes| D[GPU: Generate Synthetic Samples]
-    C -->|No| E[CPU: ML Model Training]
-    D --> E
-    E --> F[Model Validation]
-    F --> G[SHAP Interpretation]
-    G --> H[Clinical Interpretation]
