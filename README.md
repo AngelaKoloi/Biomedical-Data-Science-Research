@@ -16,11 +16,11 @@ This repository contains my academic and research work in **computational medici
 
 ```mermaid
 graph TD
-    A[MSc Thesis: Stent FEA Simulation] --> B[PhD: ML & Metabolomics in CVD-Depression]
-    B --> C[1_ML_Mental_CVD_Prediction]
-    B --> D[2_Metabolomics_Depression_CVD]
-    B --> E[3_Metabolic_Pathways]
-    B --> F[4_Causal_Discovery]
+    A[MSc Thesis: Stent FEA Simulation] --> B[PhD: ML, Network Analysis & Causal Inference in CVD-Depression]
+    B --> C[Psychological factors for improved CVD]
+    B --> D[Metabolomic signatures linking depressive symptoms-CVD]
+    B --> E[Morbidity-bridging metabolic pathways]
+    B --> F[Immuno-metabolic pathways in MDD-CVD]
     C --> G[GANs + SHAP]
     D --> H[Network Inference]
     E --> I[Pathway & Causal Graphs]
