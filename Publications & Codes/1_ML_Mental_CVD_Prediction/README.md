@@ -25,7 +25,7 @@
 
 | File | Analysis Stage |
 |------|---------------|
-| `ML_merged.ipynb` | Main prediction model (XGBoost/RF/SVM) |
+| `ML_merged.ipynb` | Main prediction model (XGBoost) |
 | `outliers.ipynb` | Anomaly detection in feature space |
 
 ### 3. Preprocessing Modules
