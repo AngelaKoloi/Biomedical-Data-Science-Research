@@ -46,6 +46,3 @@
 ```bash
 # Python
 pip install pandas numpy xgboost matplotlib shap tensorflow
-
-# R (for statistical comparisons)
-install.packages(c("lme4", "survival", "ggplot2"))
