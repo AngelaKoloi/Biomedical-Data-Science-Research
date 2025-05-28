@@ -53,3 +53,11 @@
 | - Storage                  | 2PB Lustre parallel filesystem            | Cohort data handling           |
 | **UK Biobank**             | IBM Spectrum LSF                          | Validation/ Generalizability   |
 
+graph TD
+    A[Raw Data] --> B[Preprocessing]
+    B --> C{GAN Augmentation?}
+    C -->|Yes| D[Generate Synthetic Samples]
+    C -->|No| E[ML Model Training]
+    D --> E
+    E --> F[Model Validation]
+    F --> G[SHAP Interpretation]
