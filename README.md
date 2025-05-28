@@ -21,17 +21,17 @@ graph TD
     B --> D[Metabolomic signatures linking depressive symptoms-CVD]
     B --> E[Morbidity-bridging metabolic pathways]
     B --> F[Immuno-metabolic pathways in MDD-CVD]
-    C --> G[GANs + SHAP]
-    D --> H[Network Inference]
-    E --> I[Pathway & Causal Graphs]
-    F --> J[DAGs + Mediation]
+    C --> G[GANs + Machine Learning + Explainability AI]
+    D --> H[Network + Mediation Analysis]
+    E --> I[Network Analysis & Causality Inference]
+    F --> J[ML + Causal AI + Mediation Analysis]
     J --> K[Clinical Insight & Publications]
     H --> K
     G --> K
     I --> K
-    B --> L[Cross_Lagged_Models]
+    B --> L[Cross Lagged Models]
     L --> K
-    B --> M[LURIC_ML Prediction]
+    B --> M[Machine Learning + Explainability AI]
     M --> K
 ```
 
