@@ -47,7 +47,7 @@ graph TD
     AP --> S[Synthetic Data Generation]
     S --> T[Copulas + GANs + VAEs]
 
-    AP --> U[Media Mix Modeling (MMM)]
+    AP --> U[Media Mix Modeling]
     U --> W[Bayesian Inference + Causal ML on Campaign Data]
 
     O --> K
