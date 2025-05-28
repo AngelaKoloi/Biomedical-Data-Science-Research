@@ -67,3 +67,9 @@ graph TD
 | - Storage                  | 2PB Lustre parallel filesystem            | Cohort data handling           |
 | **UK Biobank**             | IBM Spectrum LSF                          | Validation/ Generalizability   |
 
+## 📦 Dependencies
+```bash
+# Python
+pip install pandas numpy xgboost matplotlib shap tensorflow
+
+
