@@ -42,27 +42,14 @@
 2. Identify most predictive psychological features through SHAP analysis
 3. Develop demographic-adapted models (Lifelines vs UK Biobank)
 
-## 🖥️ HPC Implementation
-All analyses were conducted on:
-- **Lifelines HPC Cluster** (Slurm-managed)
-  - 64-core nodes with 512GB RAM
-  - NVIDIA V100 GPUs for GAN training
-  - Singularity containers for reproducibility
-- **UK Biobank** (for generalizability)
+## 🖥️ High-Performance Computing Implementation
 
-```bash
-# Example Slurm submission script
-#!/bin/bash
-#SBATCH --job-name=GAN_train
-#SBATCH --partition=gpu
-#SBATCH --gres=gpu:v100:1
-#SBATCH --time=24:00:00
-#SBATCH --mem=64G
+### Infrastructure
+| **Resource**               | **Specification**                          | **Use Case**                     |
+|----------------------------|-------------------------------------------|----------------------------------|
+| **Lifelines HPC Cluster**  | Slurm workload manager                    | Primary analysis environment    |
+| - Compute Nodes            | 64-core AMD EPYC, 512GB RAM               | Data preprocessing & ML training|
+| - GPU Nodes                | 4× NVIDIA V100 (32GB VRAM)                | GAN training                   |
+| - Storage                  | 2PB Lustre parallel filesystem            | Cohort data handling           |
+| **UK Biobank**             | IBM Spectrum LSF                          | Validation & replication       |
 
-module load Python/3.9.6
-python generator.ipynb --epochs 500 --batch_size 64
-
-## 📦 Dependencies
-```bash
-# Python
-pip install pandas numpy xgboost matplotlib shap tensorflow
