@@ -17,24 +17,31 @@ This repository contains my academic and research work in **computational medici
 ```mermaid
 graph TD
     A[MSc Thesis: Stent FEA Simulation] --> B[PhD: ML, Network Analysis & Causal Inference in CVD-Depression]
-    B --> C[Psychological factors for improved CVD]
-    B --> D[Metabolomic signatures linking depressive symptoms-CVD]
-    B --> E[Morbidity-bridging metabolic pathways]
-    B --> F[Immuno-metabolic pathways in MDD-CVD]
-    C --> G[GANs + Machine Learning + Explainability AI]
+
+    B --> JP[📄 Journal Papers]
+    B --> AP[🧪 Additional Projects]
+
+    JP --> C[Psychological factors for improved CVD]
+    JP --> D[Metabolomic signatures linking depressive symptoms-CVD]
+    JP --> E[Morbidity-bridging metabolic pathways]
+    JP --> F[Immuno-metabolic pathways in MDD-CVD]
+    JP --> V[Early Prediction of CVD]
+
+    C --> G[GANs + ML + Explainable AI]
     D --> H[Network + Mediation Analysis]
-    E --> I[Network Analysis & Causality Inference]
+    E --> I[Network Analysis & Causal Inference]
     F --> J[ML + Causal AI + Mediation Analysis]
-    J --> K[Clinical Insight & Publications]
+    V --> M[ML + Explainable AI]
+
+    G --> K[Clinical Insight & Publications]
     H --> K
-    G --> K
     I --> K
-    B --> L[Depression symptoms on CVD]
+    J --> K
+    M --> K
+
+    AP --> L[Depression symptoms on CVD]
     L --> O[Cross-Lagged Panel Model]
     O --> K
-    B --> V[Early Prediction CVD]
-    V --> M[Machine Learning + Explainability AI]
-    M --> K
 ```
 
 ## 📂 Repository Structure  
