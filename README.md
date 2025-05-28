@@ -12,6 +12,28 @@ This repository contains my academic and research work in **computational medici
 - **Additional projects** (Cross-lagged models, LURIC cohort ML)  
 
 ---
+## 🔄 Computational Research Workflow
+
+```mermaid
+graph TD
+    A[MSc Thesis: Stent FEA Simulation] --> B[PhD: ML & Metabolomics in CVD-Depression]
+    B --> C[1_ML_Mental_CVD_Prediction]
+    B --> D[2_Metabolomics_Depression_CVD]
+    B --> E[3_Metabolic_Pathways]
+    B --> F[4_Causal_Discovery]
+    C --> G[GANs + SHAP]
+    D --> H[Network Inference]
+    E --> I[Pathway & Causal Graphs]
+    F --> J[DAGs + Mediation]
+    J --> K[Clinical Insight & Publications]
+    H --> K
+    G --> K
+    I --> K
+    B --> L[Cross_Lagged_Models]
+    L --> K
+    B --> M[LURIC_ML Prediction]
+    M --> K
+```
 
 ## 📂 Repository Structure  
 - **Education**
