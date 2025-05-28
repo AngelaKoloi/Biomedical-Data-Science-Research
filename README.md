@@ -30,12 +30,11 @@ graph TD
     G --> K
     I --> K
     B --> L[Depression symptoms on CVD]
-    L --> O[Cross-Lagged Panel Model (CLPM]
+    L --> O[Cross-Lagged Panel Model (CLPM)]
     O --> K
     B --> V[Early Prediction CVD]
     V --> M[Machine Learning + Explainability AI]
     M --> K
-
 ```
 
 ## 📂 Repository Structure  
