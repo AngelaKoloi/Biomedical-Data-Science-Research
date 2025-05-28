@@ -9,7 +9,7 @@ This repository contains my academic and research work in **computational medici
 - **MSc Thesis** (Finite Element Analysis of Stent Deployment)  
 - **PhD Research** (ML, metabolomics & causal discovery in CVD-depression comorbidity)  
 - **Peer-reviewed publications** (UK Biobank, Lifelines, Young Finns Study & NESDA)  
-- **Additional projects** (Cross-lagged models, LURIC cohort ML)  
+- **Additional projects** (Cross-lagged models, ML prediction Luric, Synthetic Data Generation, Media Mix Modeling)  
 
 ---
 ## 🔄 Computational Research Workflow
