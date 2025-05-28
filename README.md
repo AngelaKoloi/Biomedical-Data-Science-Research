@@ -9,9 +9,52 @@ This repository contains my academic and research work in **computational medici
 - **MSc Thesis** (Finite Element Analysis of Stent Deployment)  
 - **PhD Research** (ML, metabolomics & causal discovery in CVD-depression comorbidity)  
 - **Peer-reviewed publications** (UK Biobank, Lifelines, Young Finns Study & NESDA)  
-- **Additional projects** (Cross-lagged models, LURIC cohort ML)  
+- **Additional projects** (Cross-lagged models, ML prediction Luric, Synthetic Data Generation, Media Mix Modeling)  
 
 ---
+## 🔄 Computational Research Workflow
+
+```mermaid
+graph TD
+    A[MSc Thesis: Stent FEA Simulation] --> B[PhD: ML, Network Analysis & Causal Inference in CVD-Depression]
+
+    B --> JP[📄 Journal Papers]
+    B --> AP[🧪 Additional Projects]
+
+    %% Journal Papers
+    JP --> C[Psychological factors for improved CVD]
+    JP --> D[Metabolomic signatures linking depressive symptoms-CVD]
+    JP --> E[Morbidity-bridging metabolic pathways]
+    JP --> F[Immuno-metabolic pathways in MDD-CVD]
+    JP --> V[Early Prediction of CVD]
+
+    C --> G[GANs + ML + Explainable AI]
+    D --> H[Network + Mediation Analysis]
+    E --> I[Network Analysis & Causal Inference]
+    F --> J[ML + Causal AI + Mediation Analysis]
+    V --> M[ML + Explainable AI]
+
+    G --> K[Clinical Insight & Publications]
+    H --> K
+    I --> K
+    J --> K
+    M --> K
+
+    %% Additional Projects
+    AP --> L[Influence of Depression symptoms on CVD]
+    L --> O[Cross-Lagged Panel Model]
+
+    AP --> S[Synthetic Data Generation]
+    S --> T[Copulas + GANs + VAEs]
+
+    AP --> U[Media Mix Modeling]
+    U --> W[Bayesian Inference + Causal ML on Campaign Data]
+
+    O --> K
+    T --> K
+    W --> K
+
+```
 
 ## 📂 Repository Structure  
 - **Education**
